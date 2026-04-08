@@ -1,0 +1,52 @@
+:root{
+    --primary-color: #f8c600e3;
+    --secondary-color: #3b4cca;
+    --text-color: #000000;
+    --background-color: #ffffff;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.card-tittle{
+    margin: 0;
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+.card figure{
+    margin: 20px 0;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+a:hover{
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
