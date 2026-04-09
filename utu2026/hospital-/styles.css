@@ -1,0 +1,31 @@
+:root {
+  font-size: 16px; /* 1rem = 16px */
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #153e3d;
+  background-color: #f3faf9;
+}
+header{
+  background-color: #ffffff;
+  color: #0f4b00;
+  padding: 1rem;
+  text-align: center;
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img{
+  margin-right: 0.5rem;
+}
+a,ul,li{
+  color: #0f4b00;
+  text-decoration: none;
+}
